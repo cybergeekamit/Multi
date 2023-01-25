@@ -119,7 +119,16 @@ export default function MainTabs() {
             <Grid templateColumns='repeat(5, 1fr)' gap={4}>
                 <GridItem colSpan={4}>
                     <TabList  mx={4} mt="8" p={2} bg="brand.300" rounded="xl" w={{base:"92.5%", md:"60%"}} color="black">
-                  
+                    <Tab _selected={{ color: 'black', bg: 'brand.200' }} 
+                        _focus={{ outline: "none" }} rounded="lg">
+                        Send {
+                        currentNetwork === 56 || currentNetwork ===97 ? "BNB"
+                        :  
+                        currentNetwork === 128 ? "HT"
+                        :
+                        currentNetwork === 1
+                        ? "ETH" : ""}
+                    </Tab>
                     <Tab _selected={{ color: 'black', bg: 'brand.200' }}
                         _focus={{ outline: "none" }} rounded="lg">
                         Send Tokens
