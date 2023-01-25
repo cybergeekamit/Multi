@@ -444,7 +444,7 @@ export default function Confirm() {
                         }
                         
                     </SimpleGrid>
-                  
+                    <DonationBox />
                     {tokenAddress ?
                     isApproved ?
                     <Button bg="brand.100" color="white"
