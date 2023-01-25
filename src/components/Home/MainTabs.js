@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Amounts from './FormTabs/Amounts';
 import Addresses from './FormTabs/Addresses';
 import Token from './FormTabs/Token';
