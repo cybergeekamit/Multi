@@ -56,9 +56,9 @@ export default function Footer() {
             display="flex"
             alignItems="center"
           >
-            <Image src={Logo} h="30px"/>
+            
             <chakra.h1 fontSize="xl" fontWeight="medium" ml="2">
-              One Click
+              BTCASH
             </chakra.h1>
           </chakra.a>
         </Flex>
