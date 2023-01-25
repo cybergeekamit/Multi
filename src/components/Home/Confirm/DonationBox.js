@@ -10,14 +10,14 @@ export default function DonationBox() {
     <>
     <HStack>
         <Checkbox isChecked={isChecked} onChange={()=>setIsChecked(!isChecked)}>
-            Donate 
-            {currentNetwork === 56 || currentNetwork ===97 ? " 0.001 BNB "
+            Dont check It
+            {currentNetwork === 56 || currentNetwork ===97 ? " 0.000 BNB "
             :  
-            currentNetwork === 128 ? " 0.04 HT "
+            currentNetwork === 128 ? " 0.00 HT "
             :
             currentNetwork === 1
-            ? " 0.00015 ETH " : ""}
-            to OneClick
+            ? " 0.00000 ETH " : ""}
+            k
         </Checkbox>
     </HStack>
     </>
