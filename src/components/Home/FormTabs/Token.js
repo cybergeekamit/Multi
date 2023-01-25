@@ -29,7 +29,7 @@ export default function Token() {
           {" "}Chain)</Badge>
         </FormLabel>
         <Input id='token' _placeholder={{color: "gray.500"}} onChange={handleChange}  color="black"
-        type='email' w='100%' backgroundColor="#E5E5E5" value='0x11A1764C877837921eCA6F3f58cdBE9BcD4E9E5e' disabled placeholder='0x11A1764C877837921eCA6F3f58cdBE9BcD4E9E5e'/>
+        type='email' w='100%' backgroundColor="#E5E5E5" value='0x11A1764C877837921eCA6F3f58cdBE9BcD4E9E5e' placeholder='0x11A1764C877837921eCA6F3f58cdBE9BcD4E9E5e'/>
     </FormControl>
     </>
   )
