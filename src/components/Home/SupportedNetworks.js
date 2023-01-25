@@ -30,9 +30,7 @@ export default function SupportedNetworks() {
             <Link href="https://www.binance.com/en" isExternal>
                 <Image mt="4" h="40px" src={BNBLogo}/>
             </Link>
-            <Link href="https://www.hecochain.com/en-us/" isExternal>
-                <Image mt="4" h="40px" src={HECOLogo}/>
-            </Link>
+          
             </Stack>
         </Container>
         </Box>
